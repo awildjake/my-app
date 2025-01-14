@@ -1,3 +1,21 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+    export let data
+</script>
+<!-- src/routes/+page.svelte -->
+
+<svelte:head>
+    <title>Home</title>
+</svelte:head>
+<div class="unit">
+    <article>
+        <h1>Home</h1>
+        <ul class="developments">
+            {#each data.developments as development}
+                <li class="development">
+                    <a href={development.slug} class="title">{development.title}</a>
+                    <p class="date">{development.units}</p>
+                </li>
+            {/each}
+        </ul>
+    </article>
+</div>
