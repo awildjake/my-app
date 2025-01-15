@@ -3,7 +3,7 @@ title: 826 N Winchester Boulevard
 address: 826 N Winchester Blvd, San Jose, CA 95128
 developer: VCI Companies
 municipality: San Jose
-units: 267
+units: 135
 phase: Under Review
 permits:
     H24-052:

@@ -1,6 +1,34 @@
 <script lang="ts">
 	let { data } = $props()
+    let text = data.meta.phase; // Example text
 
+    import L from 'leaflet';
+    import { onMount } from 'svelte';
+
+    let map;
+
+    // Initial map settings
+    const initialCoords = data.meta.geometry; // Latitude and Longitude
+    const initialZoom = 12;
+
+    onMount(() => {
+        // Initialize the map
+        map = L.map('map').setView(initialCoords, initialZoom);
+
+        // Add a tile layer (OpenStreetMap in this example)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Add a marker
+        L.marker(initialCoords).addTo(map)
+            .bindPopup(data.meta.title);
+
+        return () => {
+            // Cleanup on component destroy
+            map.remove();
+        };
+    });
 </script>
 
 <svelte:head>
@@ -8,15 +36,17 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
-<div class="unit main-col">
-    <article>
+
+<article>
+    <div class="box">
         <div class="prose">
             <hgroup>
-                <span class="tag">{data.meta.phase}</span>
-                <span class="tag">Units: {data.meta.units}</span>
+                <span style="background: {text === 'Approved' ? 'green' : text === 'Under Review' ? 'orange' : 'red'}" class="tag">{data.meta.phase}</span>
+                <span class="tag" >Units: {data.meta.units}</span>
                 <span class="tag">{data.meta.developer}</span>
                 <h1>{data.meta.title}</h1>
             </hgroup>
+            <div id="map"></div>
             <data.content />
             <h2>Permits</h2>
             {#each Object.entries(data.meta.permits) as [permitId, permitDetails]}
@@ -24,5 +54,20 @@
                 <p>{permitDetails.description}</p>
             {/each}
         </div>
-    </article>
-</div>
+    </div>
+</article>
+
+<style>
+    #map {
+        display: flex;
+        min-width: 200px;
+        height: 250px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .map-container {
+        display: flex;
+        margin-top: 1rem;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
+    }
+</style>

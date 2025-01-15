@@ -4,7 +4,7 @@ address: 1000 El Paseo de Saratoga, San Jose, CA 95130
 developer: Sand Hill Property Company
 municipality: San Jose
 units: 772
-phase: Under Review
+phase: Approved
 permits:
     PDA20-006-02:
         status: Approved
@@ -21,7 +21,7 @@ permits:
         apn: [40333014]
         address: 1000 El Paseo de Saratoga, San Jose, CA 95130
         description: Planned Development Permit Amendment for the El Paseo de Saratoga Signature Project Building 3 to remove residential uses, reduce the building height to one-story with 58,370 square feet of commercial space, and reconfigure the underground parking garage on an approximately 10.6-gross acre site.
-        names: Sand Hill Property Company;
+        names: Sand&nbspHill&nbspProperty&nbspCompany;
     PD20-006:
         status: Approved
         initial_date: 2020-08-18
@@ -41,3 +41,14 @@ permits:
 geometry: ['37.28988042603699', '-121.99289450349139']
 published: True
 ---
+## Description
+
+El Paseo de Saratoga by Sand Hill Property Company proposes a 4-building mixed-use urban village with 772 units, a 263-bed senior care facility, and a Whole Foods grocery store all on a 10.76 acre site.
+
+Buildings 1 and 2 provide 772 total units and offer 29,00 square feet of retail space. Of the available units, 39  (5% of the total) are designated affordable to households earning 100% of the Aerea Median Income. Building 3 is a single-story entirely commercial space, a large part of which is set aside for a Whole Foods grocery store. Building 4, located on the other side of Saratoga Avenue from the other 3 buildings, is a senior care facility. Site designs also include a new public park and paseo.
+
+El Paseo de Saratoga was originally approved by San José’s City Council on June 21, 2022. The current iteration of the project was approved on December 10, 2024.
+
+## Links
+
+- [City Website](https://www.sanjoseca.gov/your-government/departments-offices/planning-building-code-enforcement/planning-division/major-development-projects/el-paseo-and-saratoga-ave-mixed-use-village) ([Archived](https://web.archive.org/web/20241210002007/https://www.sanjoseca.gov/your-government/departments-offices/planning-building-code-enforcement/planning-division/major-development-projects/el-paseo-and-saratoga-ave-mixed-use-village) from the original on December 12, 2024.)

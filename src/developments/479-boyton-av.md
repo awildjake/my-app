@@ -4,7 +4,7 @@ address: 479 Boynton Ave, San Jose, CA 95117
 developer: Dreamhouse5 Investment LLC
 municipality: San Jose
 units: 8
-phase: Approved
+phase: Under Review
 permits:
     PRE25-007:
         status: Under Review
@@ -17,6 +17,3 @@ permits:
 geometry: ['37.31884122484811', '-121.96654969982285']
 published: True
 ---
-## Markdown
-
-Hey whats its ya boy

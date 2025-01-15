@@ -1,7 +1,7 @@
 <svelte:head>
     <title>About</title>
 </svelte:head>
-<div class="unit">
+<div class="box">
     <article>
         <div class="prose">
             <h1>About</h1>
