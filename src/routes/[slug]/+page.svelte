@@ -1,5 +1,6 @@
 <script lang="ts">
 	let { data } = $props()
+
 </script>
 
 <svelte:head>
@@ -7,24 +8,17 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
-<div class="unit">
+<div class="unit main-col">
     <article>
-        <hgroup>
-            <h1>{data.meta.title}</h1>
-            <p>{data.meta.address}</p>
-            <p>{data.meta.phase}</p>
-            <p>{data.meta.units}</p>
-        </hgroup>
-
-        <div class="tags">
-            {#each data.meta.categories as category}
-                <span class="surface-4">&num;{category}</span>
-            {/each}
-        </div>
         <div class="prose">
+            <hgroup>
+                <span class="tag">{data.meta.phase}</span>
+                <span class="tag">Units: {data.meta.units}</span>
+                <span class="tag">{data.meta.developer}</span>
+                <h1>{data.meta.title}</h1>
+            </hgroup>
             <data.content />
-        </div>
-        <div>
+            <h2>Permits</h2>
             {#each Object.entries(data.meta.permits) as [permitId, permitDetails]}
                 <p><strong>{permitId}</strong> {permitDetails.status}</p>
                 <p>{permitDetails.description}</p>

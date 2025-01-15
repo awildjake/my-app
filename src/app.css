@@ -99,6 +99,13 @@ nav li {
     height: 50px;
     margin: auto;
 }
+@media (min-width: 800px) {
+    .flexbox {
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+  }
 .site-logo {
     margin: auto;
 }
@@ -115,17 +122,32 @@ nav li a:hover {
     color: rgb(255, 174, 0);
 }
 .wrap {
-    max-width: 978px;
+    max-width: 65ch;
     margin-left: auto;
     margin-right: auto;
 }
 article {
     min-height: 800px;
     background-color: #fff;
-    border-radius: 10px;
     margin: 0 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
     padding: 40px 40px 30px;
+}
+.map-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
+}
+.info-placeholder {
+    margin-top: 1em;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
+    font-size: 16px;
+    padding: 40px 40px 40px;
 }
 .flexcontainer {
     display: flex;
@@ -133,14 +155,26 @@ article {
 }
 .unit {
     float: left;
-    width: 100%;
     padding: 10px;
+    width: 65ch;
 }
 .four-fifths {
     width: 80%;
 }
 .one-fifth {
     width: 20%;
+}
+.map-col {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-right: 0px;
+}
+.main-col {
+    width: 100%
+}
+.one {
+    width: 65ch;
 }
 .tag-a {
     display: span;
@@ -165,5 +199,6 @@ article {
     padding-left: .3rem;
     text-transform: uppercase;
     border: .1rem solid #000;
-    box-shadow: 2px 2px #bbb;
+    color: black;
+    font-size: 16px;
 }

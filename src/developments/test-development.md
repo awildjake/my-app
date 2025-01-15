@@ -3,7 +3,7 @@ title: 826 N Winchester Boulevard
 address: 826 N Winchester Blvd, San Jose, CA 95128
 developer: VCI Companies
 municipality: San Jose
-units: 1
+units: 267
 phase: Under Review
 permits:
     H24-052:
@@ -17,31 +17,10 @@ permits:
 geometry: ['37.3304836556013', '-121.94968865318546']
 published: True
 ---
-## General Description
+826 N Winchester Boulevard is a 17-story, 135-unit, mixed-use building just north of Valley Fair Mall in San Jose, proposed by VCI Companies.
 
-Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world,
+In compliance with San Jose's Inclusionary Housing Ordinance, the developer has allocated 20 of the 135 units for affordable housing. Proposed onsite amenities include 18,800 square feet of privately owned public space, 7,469 square feet of amenity space, and 12,000 square feet of commercial space. The project will have a total of 170 parking spaces, 60 for retail and 110 bundled with the units.
 
-```ts
-function greet(name: string) {
-    console.log
-}
-```
+## In the News
 
-Whereas disregard and contempt for human rights have resulted in barbarous acts which have outraged the conscience of mankind, and the advent of a world in which human beings shall enjoy freedom of speech and belief and freedom from fear and want has been proclaimed as the highest aspiration of the common people,
-
-Whereas it is essential, if man is not to be compelled to have recourse, as a last resort, to rebellion against tyranny and oppression, that human rights should be protected by the rule of law,
-
-Whereas it is essential to promote the development of friendly relations between nations,
-
-Whereas the peoples of the United Nations have in the Charter reaffirmed their faith in fundamental human rights, in the dignity and worth of the human person and in the equal rights of men and women and have determined to promote social progress and better standards of life in larger freedom,
-
-Whereas Member States have pledged themselves to achieve, in co-operation with the United Nations, the promotion of universal respect for and observance of human rights and fundamental freedoms,
-
-Whereas a common understanding of these rights and freedoms is of the greatest importance for the full realization of this pledge,
-
-Now, therefore,
-
-The General Assembly,
-
-Proclaims this Universal Declaration of Human Rights as a common standard of achievement for all peoples and all nations, to the end that every individual and every organ of society, keeping this Declaration constantly in mind, shall strive by teaching and education to promote respect for these rights and freedoms and by progressive measures, national and international, to secure their universal and effective recognition and observance, both among the peoples of Member States themselves and among the peoples of territories under their jurisdiction.
-
+["17-Story Tower Proposed for 826 North Winchester Boulevard, San Jose."](https://sfyimby.com/2024/02/17-story-tower-proposed-for-826-north-winchester-boulevard-san-jose.html) SF YIMBY, February 28, 2024.
