@@ -12,7 +12,7 @@
 <header>
     <div class="flexbox">
         <div class="site-logo">
-            <h1 style="margin: 0px;">Track SJ</h1>
+            <h1 style="margin: 0px;">Build SJ</h1>
         </div>
         <nav>
             <ul>

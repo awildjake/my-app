@@ -1,5 +1,5 @@
 ---
-title: 479 Boyton Av
+title: 479 Boyton Avenue
 address: 479 Boynton Ave, San Jose, CA 95117
 developer: Dreamhouse5 Investment LLC
 municipality: San Jose

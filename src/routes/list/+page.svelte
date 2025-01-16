@@ -46,7 +46,7 @@
                             <td><a href={development.slug} class="title">{development.title}</a></td>
                             <td>
                                 <span 
-                                    style="background: {development.phase === 'Approved' ? '#2A81CB' : development.phase === 'Under Review' ? 'orange' : '#2AAD27'}" 
+                                    style="background: {development.phase === 'Approved' ? '#2A81CB' : development.phase === 'Under Review' ? 'orange' : development.phase === 'Withdrawn' ? 'lightgrey' : '#2AAD27'}" 
                                     class="tag">
                                     {development.phase}
                                 </span>

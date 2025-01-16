@@ -43,7 +43,7 @@
     <div class="box">
         <div class="prose">
             <hgroup>
-                <span style="background: {text === 'Approved' ? 'green' : text === 'Under Review' ? 'orange' : 'red'}" class="tag">{data.meta.phase}</span>
+                <span style="background: {text === 'Approved' ? '#2A81CB' : text === 'Under Review' ? 'orange' : text === 'Withdrawn' ? 'lightgrey' : '#2AAD27'}" class="tag">{data.meta.phase}</span>
                 <span class="tag" >Units: {data.meta.units}</span>
                 <span class="tag">{data.meta.developer}</span>
                 <h1>{data.meta.title}</h1>
