@@ -1,6 +1,7 @@
 import { json } from "@sveltejs/kit"
 import type { Development } from "$lib/types.ts"
 
+
 async function getDevelopments() {
     let developments = []
 
@@ -29,3 +30,4 @@ export async function GET() {
     const developments = await getDevelopments()
     return json(developments)
 }
+

@@ -25,6 +25,23 @@
     --step-4: clamp(2.0736rem, 1.6803rem + 1.9665vw, 3.2043rem);
     --step-5: clamp(2.4883rem, 1.9606rem + 2.6385vw, 4.0054rem);
 }
+
+.approved {
+    background-color: var(--approved-color);
+}
+
+.under-review {
+    background-color: var(--under-review-color);
+}
+
+.complete {
+    background-color: var(--completed-color);
+}
+
+.withdrawn {
+    background-color: var(--withdrawn-color);
+}
+
 h1 {
     font-size: var(--step-2);
     font-weight: 600;

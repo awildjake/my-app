@@ -2,7 +2,7 @@
     import { onMount } from 'svelte';
 
 	let { data } = $props()
-    let text = data.meta.phase; // Example text
+    let text = data.meta.phase;
 
     let map;
 
