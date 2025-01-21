@@ -23,15 +23,6 @@
             <p>Build SJ is a website dedicated to keeping track of ongoing, residential development projects in within the City of San Jose. By clicking on the list or map buttons on the navigation bar you can find information on projects in your neighborhood.</p>
         </div>
     </div>
-    <div class="box">
-        <div class="prose">
-            <h2>Big Projects</h2>
-            <p>Here's a list of signifcant ongoing projects in San Jose.</p>
-            <ul>
-                <li>Item 1</li>
-            </ul>
-        </div>
-    </div>
     <div class="box full-image">
         <img src="/src/img/1989-402_p20.jpg">
     </div>

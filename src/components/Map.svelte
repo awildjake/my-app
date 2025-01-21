@@ -112,6 +112,7 @@
                         `);
                         marker.on('mouseover', function() { this.openPopup() });
                         marker.on('mouseout', function() { this.closePopup(); });
+                        marker.on('click', function() { open(dev.slug, '_self'); });
                     } else if (dev.phase === 'Withdrawn'){
                         const marker = L.marker(coords, {icon: withdrawnMarker}).addTo(withdrawnLayer);
                         marker.bindPopup(`

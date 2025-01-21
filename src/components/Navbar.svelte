@@ -23,6 +23,5 @@
                 <li><a href="/info" class:active={routeId == "/info"}>Info</a></li>
             </ul>
         </nav>
-
     </div>
 </header>
