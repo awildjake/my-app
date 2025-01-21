@@ -1,5 +1,8 @@
 <script lang="ts">
     import { onMount } from 'svelte';
+    import 'leaflet.awesome-markers/dist/leaflet.awesome-markers.css';
+
+
     import type { Development } from "$lib/types.ts";
 
     let developments: Development[] = [];

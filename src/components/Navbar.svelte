@@ -1,5 +1,6 @@
 <script>
     import { page } from "$app/stores"
+    import { base } from '$app/paths';
     
     $: routeId = $page.route.id;
     
@@ -16,11 +17,11 @@
         </div>
         <nav>
             <ul>
-                <li><a href="/" class:active={routeId == "/"}>Home</a></li>
-                <li><a href="/about" class:active={routeId == "/about"}>About</a></li>
-                <li><a href="/list" class:active={routeId == "/list"}>List</a></li>
-                <li><a href="/map" class:active={routeId == "/map"}>Map</a></li>
-                <li><a href="/info" class:active={routeId == "/info"}>Info</a></li>
+                <li><a href="{base}/" class:active={routeId == "{base}/"}>Home</a></li>
+                <li><a href="{base}/about" class:active={routeId == "base}/about"}>About</a></li>
+                <li><a href="{base}/list" class:active={routeId == "{base}/list"}>List</a></li>
+                <li><a href="{base}/map" class:active={routeId == "{base}/map"}>Map</a></li>
+                <li><a href="{base}/info" class:active={routeId == "{base}/info"}>Info</a></li>
             </ul>
         </nav>
     </div>

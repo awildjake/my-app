@@ -1,5 +1,5 @@
 <script lang="ts">
-    export let data
+    let data
 </script>
 <!-- src/routes/+page.svelte -->
 
@@ -22,8 +22,5 @@
             <h2>Home</h2>
             <p>Build SJ is a website dedicated to keeping track of ongoing, residential development projects in within the City of San Jose. By clicking on the list or map buttons on the navigation bar you can find information on projects in your neighborhood.</p>
         </div>
-    </div>
-    <div class="box full-image">
-        <img src="/src/img/1989-402_p20.jpg">
     </div>
 </article>

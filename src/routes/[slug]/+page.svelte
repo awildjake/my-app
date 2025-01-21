@@ -67,9 +67,4 @@
         width: 100%;
         border-radius: 10px;
     }
-    .map-container {
-        display: flex;
-        margin-top: 1rem;
-        box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
-    }
 </style>
